@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>RequiredArguments</key>
+    <dict>
+      <key>MaximumDeferrals</key>
+      <integer>6</integer>
+      <key>UptimeThreshold</key>
+      <integer>10</integer>
+      <key>NotificationThreshold</key>
+      <integer>2</integer>
+      <key>DeferralDuration</key>
+      <integer>6</integer>
+    </dict>
+    <key>OptionalArguments</key>
+    <dict>
+      <key>Title</key>
+      <string>Restart Reminder</string>
+      <key>AggroMessage</key>
+      <string>Please save your work and restart</string>
+      <key>NotificationMessage</key>
+      <string>In order to keep your system healthy and secure it needs to be restarted. Please save your work and restart as soon as possible.</string>
+      <key>NotificationSubtitle</key>
+      <string/>
+      <key>DeferralButtonText</key>
+      <string>Restart Later</string>
+      <key>NoDeferralsRemainingButtonText</key>
+      <string>You must restart</string>
+      <key>RestartButtonText</key>
+      <string>Restart Now</string>
+      <key>ShowDeferralCount</key>
+      <true/>
+      <key>NotificationIcon</key>
+      <string>/usr/local/jamfconnect/d65logo-jamfconnect.png</string>
+      <key>NotificationIconDarkMode</key>
+      <string>/usr/local/jamfconnect/d65logo-jamfconnect.png</string>
+      <key>MessageIcon</key>
+      <string>/usr/local/jamfconnect/d65logo-jamfconnect.png</string>
+      <key>MessageIconDarkMode</key>
+      <string>/usr/local/jamfconnect/d65logo-jamfconnect.png</string>
+      <key>BannerImage</key>
+      <string/>
+      <key>BannerImageDarkMode</key>
+      <string/>
+      <key>AdditionalDialogOptions</key>
+      <string>--width 300 --height 400 --messagefont size=15 --position toplight --ontop --messagealignment centre</string>
+      <key>AdditionalAggressiveOptions</key>
+      <string/>
+      <key>AdditionalNormalOptions</key>
+      <string>--moveable</string>
+      <key>AdditionalNotificationOptions</key>
+      <string/>
+      <key>Deadline</key>
+      <integer>0</integer>
+      <key>SecretQuitKey</key>
+      <string/>
+    </dict>
+  </dict>
+</plist>
